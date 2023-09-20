@@ -1,0 +1,43 @@
+/*CSS del ejercicio 09*/
+h1 {
+    color: rgb(120, 182, 192);
+}
+
+h2 {
+    color: blue;
+}
+
+#f1 {
+    color: red;
+}
+
+.destacado {
+    color: rgb(223, 190, 57);
+}
+
+.especial {
+    color: rgb(144, 19, 216);
+}
+
+.c1 {
+    color: red;
+}
+.c3 {
+    color: rgb(17, 241, 80);
+}
+.especial{
+    color: rgb(223, 190, 57);
+}
+
+.t1, th, tr{
+    border: solid;
+    border-collapse: collapse;
+    border-color: black;
+    border-block-width: 1px;
+}
+#adicional{
+    color:olive;
+}
+#especial{
+    color: magenta;
+}

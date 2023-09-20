@@ -1,0 +1,70 @@
+<!--Determinar las reglas CSS necesarias para mostrar la siguiente tabla con el aspecto final
+mostrado en la imagen (modificar el código HTML que se considere necesario añadiendo
+los atributos class oportunos).
+Tabla original:
+Pasos a realizar:
+1. Alinear el texto de las celdas, cabeceras y título. Definir los bordes de la tabla, celdas y
+cabeceras (color gris oscuro #333).
+2. Formatear las cabeceras de fila y columna con la imagen de fondo correspondiente en
+cada caso (fondo_gris.gif, euro.png, dolar.png, yen.png, libra.png). Modificar el tipo de
+letra de la tabla y utilizar Arial. El color azul claro es #E6F3FF.
+3. Mostrar un color alterno en las filas de datos (color amarillo claro #FFFFCC).
+
+Nota: el código para este ejercicio se encuentra en GitHub o Moodle.-->
+
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Ejercicio formatear tabla</title>
+    <link rel="stylesheet" href="ejercicioex02Extras/ejercicioex02.css" </head>
+
+<body>
+    <table class="tabla" border="1" summary="Tipos de cambio">
+        <tr>
+            <th colspan="2" class="cab" scope="col">Cambio</th>
+            <th class="cab" scope="col">Compra</th>
+            <th class="cab" scope="col">Venta</th>
+            <th class="cab" scope="col">M&aacute;ximo</th>
+            <th class="cab" scope="col">M&iacute;nimo</th>
+
+        </tr>
+        <tr>
+            <th id="img1" class="colp" scope="row"><img style="border: 0px;" src="ejercicioex02Extras/euro.png" height="12p"></th>
+            <th class="colp" scope="row">Euro/Dolar</th>
+            <td>1.2524</td>
+            <td>1.2527</td>
+            <td>1.2539</td>
+            <td>1.2488</td>
+        </tr>
+        <tr>
+            <th id="img1" class="colp" scope="row"><img style="border: 0px;" src="ejercicioex02Extras/dolar.png" height="12p"></th>
+            <th class="colp" scope="row">Dolar/Yen</th>
+            <td>119.01</td>
+            <td>119.05</td>
+            <td>119.82</td>
+            <td>119.82</td>
+        </tr>
+        <tr>
+            <th id="img1" class="colp" scope="row"><img style="border: 0px;" src="ejercicioex02Extras/libra.jpg" height="12p"></th>
+            <th class="colp" scope="row">Libra/Dolar</th>
+            <td>1.8606</td>
+            <td>1.8611</td>
+            <td>1.8651</td>
+            <td>1.8522</td>
+        </tr>
+        <tr>
+            <th id="img1" class="colp" scope="row"><img style="border: 0px;" src="ejercicioex02Extras/yen.jfif" height="12p"></th>
+            <th class="colp" scope="row">Euro/Yen</th>
+            <td>149.09</td>
+            <td>149.13</td>
+            <td>149.79</td>
+            <td>148.96</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

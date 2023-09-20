@@ -1,0 +1,17 @@
+.card mb-3{
+    align-items: center;
+}
+
+.col-md-4{
+    background-color: beige;
+
+}
+.card-img{
+    width: auto;
+    height: 130px;
+    
+}
+.card-body{
+    text-align: center;
+    background-color: beige;
+}

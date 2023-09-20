@@ -1,0 +1,21 @@
+.tabla{
+    border-style: solid;
+    border-collapse: collapse;  
+    background-color: antiquewhite;  
+}
+.celda{
+    border-style: solid;
+    padding: 20px;
+    width: 600px;
+    height: 50px;
+
+}
+
+.ladoIz{
+    width: 50%;
+    float: left;
+}
+.ladoDr{
+    width: 50%;
+    float: right;
+}
